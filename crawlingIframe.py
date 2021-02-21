@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from bs4 import BeautifulSoup
 
-driver = webdriver.Chrome(executable_path='/Users/wongyujung/Desktop/vsproject/testapp/chromedriver')
+driver = webdriver.Chrome(executable_path='/Users/Desktop/vsproject/testapp/chromedriver')
 driver.get("http://kafun.taiki.go.jp/Hyou0.aspx?MstCode=51310200&AreaCode=03")
 driver.implicitly_wait(10)
 
